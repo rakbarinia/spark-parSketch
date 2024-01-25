@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 tsnum=$1
+
 echo "tsnum: [$tsnum]"
 
 thresh=${3:=((6/10))}
