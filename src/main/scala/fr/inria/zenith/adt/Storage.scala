@@ -6,7 +6,7 @@ import org.apache.commons.cli.CommandLine
 import org.postgresql.util.PSQLException
 
 /**
-  * Class to connect external storage (relational database). Provides methods to create connection with DB server, to insert values (grids), to index inserted items and to perform queries on them.
+  * Class to connect external storage (relational database). It provides methods to create connection with DB server, to insert values (grids), to index inserted items and to perform queries on them.
   */
 class Storage (val cmd: CommandLine)  extends Serializable {
 
